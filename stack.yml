@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  traefik:
+    image: 655474831190.dkr.ecr.ap-northeast-1.amazonaws.com/traefik-demo-repo:latest
+    ports:
+      - "80:80"
+      - "8080:8080"
+    command:
+      - --api.insecure=true
+      - --providers.docker
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
