@@ -18,5 +18,6 @@
 
 1. リポジトリをクローンします:
    ```bash
-   git clone https://github.com/yourusername/traefik-demo-setup.git
-   cd traefik-demo-setup
+   git clone https://github.com/yourusername/aws-terraform-traefik.git
+   cd aws-terraform-traefik
+
